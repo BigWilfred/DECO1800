@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title> Test API TROVE </title>
+		<meta charset='utf-8'/>
+		<link rel='stylesheet' type='text/css' href="MVPstyle.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet"/> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+		
+	</head>
+	<body>
+		<div id='backButton'><a href="index.html">BACK TO PORTFOLIO</a></div>
+		<div id="nextArticle"><img src='MVPimg/arrowNext.png' id="arrow"></div>
+		<div id="backArticle"><img src='MVPimg/arrowBack.png' id="arrow2"></div>
+		
+		<div><a id="homebutton" href = "index.html"><img id="logo" src="MVPimg/logo.png"/></a></div>
+		<div><a id="homebutton" href = "index.html"><img id="title" src="MVPimg/title.png"/></a></div>
+		<p id="todaysDate"></p>
+		<div id="loading">TROVE TEST</div>
+		<div id = "frame">
+			<div id="test">
+				<H1> TESTING TROVE API WITH (TODAYS) DATE! </H1>
+				<p> Click the title at any time to restart search!</p>
+				<p id="sign">By 404ERROR</p>
+				<img class="trove" src="MVPimg/trove.png" alt="trove logo"/>
+				<form action="#" id='changePic'>
+					
+					<p>
+						<label class="date" for="apocalypse" value = "APOC">Apocalypse: </label>
+						<input type="checkbox" id="apocalypse" checked="unchecked"> <br>
+						
+						<label class="date" for="cult">Cult: </label>
+						<input type="checkbox" id="cult"> <br>
+						
+						<label class="date" for="war">War: </label>
+						<input type="checkbox" id="war"> <br>
+					</p>
+					<p>Select which terms you would like to search with:</p>
+					<button id="srcbutton">SEARCH</button>
+					<p>
+					</p>
+
+					
+				</form>
+			</div>
+		
+			<div class="output">
+				
+			</div>
+			
+			
+		</div>
+	
+	<script src="MVPscript.js" type="text/javascript"></script> 
+	<script src="//code.jquery.com/jquery-latest.js"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+			
+	</body>
+
+</html>

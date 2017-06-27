@@ -1,0 +1,184 @@
+body{
+	font-size:14pt;
+	font-family: 'Baloo Tamma', cursive;
+	background-color: black;
+	background-image: url("img/background.png");
+}
+p{
+	color:black;
+}
+h4{
+	color:rgb(255, 26, 255);
+}
+iframe{
+	
+}
+
+#backButton{
+	display: block;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	padding-left:auto;
+}
+.pdfContainer{
+	position:relative;
+	overflow:hidden;
+	height:0;
+	padding-bottom:50%;
+	cursor: move;
+}
+.pdfContainer iframe{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+}
+.date{
+	font-size:1.5em;
+}
+.trove{
+	height: 15%;
+	width: auto;	
+}
+.output{
+	display:block;
+	background-image: url("img/troveBack.png");
+	height:auto;
+}
+.output p img{
+	display:block;
+	margin: auto;
+	width:80%;
+	padding-top: 5%;
+}
+.panel{
+	font-size:1em;
+	color:black;
+	height: auto;
+	width: 75%;	
+	padding: 5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 0;	
+	padding-bottom: 1%;	
+	text-align: center;
+}
+.panel-heading{
+	font-size: 0.5em;
+}
+.panel-body{
+	color:green;
+}
+.doubleFont{
+	font-size: 1.5em;
+}
+.textLayer{
+	cursor:move;
+}
+#logo{
+	position:absolute;
+	top: 30%;
+	height:30%;
+	width:auto;
+	left:5%;
+	z-index:-1;
+}
+#frame{
+	width : 75%;
+	height:50%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5%;
+	background-color:white;
+}
+#test{
+	display:block;
+	text-align: center;
+	margin-left:auto;
+	padding-top:1%;
+	background-image: url("img/troveBack.png");
+}
+#sign{
+	text-align:right;
+	font-size:0.6em;
+	color: red;
+	margin-right:30%;
+}
+#srcbutton{
+	width:20%;
+	height:10%;
+	background-color: #619644;
+	font-size:1.5em;
+	margin-bottom:5%;
+}
+#loading{
+	width:100%;
+	height:10%;
+	background-color: #619644;
+	font-size:1.5em;
+	font-color: black;
+	text-align:center;
+	z-index:-2;
+}
+#arrow{
+	width: 100%;
+	height: auto;
+	padding-left:30%;
+}
+#arrow2{
+	width: 100%;
+	height: auto;
+	padding-right:30%;
+}
+#title{
+	width :75%;
+	height:auto;
+	display:block;
+	margin:auto;
+	padding-top:5%;
+	z-index: +1;
+}
+#todaysDate{
+	display: block;
+	text-align: left;
+	color: white;
+	padding-left:66%;
+	font-size:1.5em;
+	padding-top:0;
+	margin-top:0;
+}
+#nextArticle{
+	position: absolute;
+	right:3%;
+	top:60%;
+	width:9%;
+	height: auto;
+	color: white;
+	padding-top:15%;
+	padding-bottom:35%;
+	cursor:pointer;
+	text-align: right;
+	visibility:hidden;
+	display: none;
+}
+
+#nextArticle:hover{
+	color:white;
+}
+#backArticle{
+	position: absolute;
+	left:2%;
+	top:60%;
+	width:9%;
+	height: auto;
+	color: white;
+	padding-top:15%;
+	padding-bottom:35%;
+	cursor:pointer;
+	text-align: left;
+	visibility:hidden;
+	display: none;
+}
+

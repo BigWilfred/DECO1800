@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Deathblood;
+    src: url(deathblood.ttf);
+}
+
+body{
+	font-size: 12pt;
+	font-family: 'Raleway', sans-serif;
+	background-color:white;
+	margin:0;
+	margin-right-width:4px;
+	margin-right-color:black;
+	margin-left-width:4px;
+	margin-left-color:black;
+	
+}
+h2{
+	font-family:Deathblood;
+	font-size: 3em;
+	padding-bottom: 2%;
+	text-align:center;
+}
+nav{
+	left:0;
+	top:0;
+	border:1px solid #ccc;
+	border-width:1px 0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	border-bottom-width:3px;
+	border-top-width:3px;
+	border-top-color:black;
+	font-size:1.3em;
+	overflow:hidden;
+	position: relative;
+	z-index: +1;
+	font-size:strong;
+
+}
+nav ul{
+
+	background-color:RGB(145, 255, 140);
+	margin-top:0;
+	margin-bottom:0;
+	border:0;
+
+}
+nav li{
+	display:inline;
+	cursor: pointer;
+}
+nav a{
+	display:inline-block;
+    padding:10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color:RGB(145, 255, 145);
+	margin-left:0;
+	margin-right:0;
+	font-family:Deathblood;
+}
+nav a:hover{
+	background-color:rgba(255, 255, 255, 0.8);
+}
+
+
+#outside-container{
+	padding-top:8%;
+	padding-left:15%;
+	padding-right:15%;
+	height:100%;
+	background-color:black;
+	overflow:hidden;
+	background-image:url('img/moon.jpg');
+    background-repeat: no-repeat;
+	background-position:-10% 10%;
+}
+
+#front{
+	color:blue;
+	margin:0;
+	padding:0;
+	
+}
+
+#front-content{
+	text-align:center;
+	height:100%;
+	background-color:black;
+	padding:4%;
+	padding-bottom:10%;
+	
+}
+#posterImg{
+	width:30%;
+}
+#titleImg{
+	width:70%;
+	margin-top: 15%;
+}
+
+#drip{
+	margin:0;
+	width:100%;
+	height:auto;
+	top:0;
+	left:0;
+	position:absolute;
+	display:block;
+	opacity: 0;
+	
+}
+#aboutContent, #projectContent, #reflectionContent{
+	border-width:3px;
+	border-color: RGB(145, 255, 145);
+	border-style: solid;
+	margin-bottom:4%;
+}
+#workingPS{
+	width:60%;
+	height:60%;
+	
+}
+#sand{
+	width: 100%;
+	position:relative;
+	bottom:0;
+	
+	
+}
+#muckUp{
+	text-align:centre;
+	background-color:RGB(145, 255, 145);
+	cursor:pointer;
+	
+}
+.content{
+	background-color:rgba(255, 255, 255, 0.8);
+	height:100%;
+	text-align:left;
+	padding:8%;	
+	background-image:url('img/paper.png');
+}
+.content img{
+	display:block;
+	width:80%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.about{
+	height:100%;
+	padding:4%;
+	margin-top:8%;
+}
+
+.lineBreak{
+	height:4px;
+	width:100%;
+	background-color:black;
+}
+.random{
+	
+	cursor:pointer;
+	position:fixed;
+	width:100%;
+	left:0;
+	top:0;
+}
